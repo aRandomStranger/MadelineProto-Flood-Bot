@@ -53,7 +53,7 @@ while($i < $tim){
 if(strpos(" ".$msg, "!userflood")and $userID == $mioid){
     $prima = str_replace("!userflood ", "", $msg);
     while(true){
-    sm('$prima', "Prova");
+    sm($prima, "Prova");
     }
 }
 
